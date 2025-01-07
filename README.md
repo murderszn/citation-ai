@@ -27,6 +27,50 @@
 - Required Python libraries:
   ```bash
   pip install asyncio autogen-agentchat autogen-core autogen-ext
+
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/citation-ai.git
+cd citation-ai
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+
+
+markdown
+Copy code
+# Citation AI Workflow System
+
+## Overview
+**Citation AI** is a task-driven collaborative system that leverages multiple agents to automate the process of generating, curating, and validating research citations. This project is specifically tailored for research areas such as the impact of CRISPR-Cas9 on gene therapy. The system involves three specialized agents — Scientist, Researcher, and Critic — working together in a finite and clearly defined workflow.
+
+---
+
+## Features
+- **Automated Literature Search Plan Creation**: The Scientist agent develops a comprehensive and actionable plan for citation retrieval.
+- **Reference Compilation**: The Researcher agent executes the search plan, collects references, and organizes them.
+- **Validation and Quality Assurance**: The Critic agent reviews and validates the citations for relevance, accuracy, and scientific rigor.
+- **Finite Workflow**: A termination condition ensures the workflow concludes once the Critic agent completes its task, avoiding unnecessary interactions.
+- **Extensibility**: Built using modular agent definitions, this system can be adapted for other research domains or workflows.
+
+---
+
+## Workflow Diagram
+1. **Scientist Agent**: Develops the plan → Signals `PLAN COMPLETE`.
+2. **Researcher Agent**: Executes the plan, collects references → Signals `SEARCH COMPLETE`.
+3. **Critic Agent**: Validates references, ensures quality → Signals `VALIDATION COMPLETE`.
+
+---
+
+## Prerequisites
+- Python 3.8 or higher
+- OpenAI API key for GPT-based agents
+- Required Python libraries:
+  ```bash
+  pip install asyncio autogen-agentchat autogen-core autogen-ext
 Installation
 Clone the repository:
 bash
@@ -49,38 +93,13 @@ Observe the process:
 
 The agents will communicate through a console interface.
 Follow the interactions as the Scientist agent creates a plan, the Researcher compiles references, and the Critic validates them.
-Example Task
-The system is designed to address research queries like:
 
-"Develop a comprehensive set of citations for a research paper exploring the impact of CRISPR-Cas9 on gene therapy."
-
-Each agent has a defined role:
-
-Scientist: Focus on foundational papers, recent advancements, and clinical trial data.
-Researcher: Retrieve data from databases like PubMed, Scopus, and Web of Science.
-Critic: Validate data for alignment with research goals.
-Project Structure
-bash
-Copy code
-.
-├── main.py               # Main script to run the program
-├── requirements.txt      # Required Python libraries
-├── README.md             # Project documentation
-└── LICENSE               # License information
 Key Concepts
 Assistant Agents: Modular agents with predefined roles and system prompts.
 Termination Condition: Ensures a finite and streamlined workflow using the phrase VALIDATION COMPLETE.
 Modular Design: Easily extendable to other domains or tasks.
+
 Future Enhancements
 Integration with external databases (e.g., PubMed API).
 Support for multiple research domains.
 Enhanced UI for better interaction and visualization of the workflow.
-Contributing
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Submit a pull request with detailed notes.
-License
-This project is licensed under the MIT License.
-
-Contact
-For questions, suggestions, or collaborations, please reach out via email@example.com.
