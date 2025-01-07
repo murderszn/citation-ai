@@ -16,6 +16,7 @@
 1. **Scientist Agent**: Develops the plan → Signals `PLAN COMPLETE`.
 2. **Researcher Agent**: Executes the plan, collects references → Signals `SEARCH COMPLETE`.
 3. **Critic Agent**: Validates references, ensures quality → Signals `VALIDATION COMPLETE`.
+
 ![image](https://github.com/user-attachments/assets/2e2747f0-c6e6-419a-88c8-838af8764458)
 
 ---
