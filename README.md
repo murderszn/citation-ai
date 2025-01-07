@@ -25,7 +25,6 @@
 - Required Python libraries:
   ```bash
   pip install asyncio autogen-agentchat autogen-core autogen-ext
-Installation
 
 ## Usage
 Set your OpenAI API Key: Replace "YOUR_OPEN_AI_KEY" in the OpenAIChatCompletionClient section with your API key.
