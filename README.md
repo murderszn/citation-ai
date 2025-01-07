@@ -27,14 +27,6 @@
   pip install asyncio autogen-agentchat autogen-core autogen-ext
 Installation
 
-
-## Clone the repository:
-git clone https://github.com/your-username/citation-ai.git
-cd citation-ai
-
-## Install dependencies:
-pip install -r requirements.txt
-
 ## Usage
 Set your OpenAI API Key: Replace "YOUR_OPEN_AI_KEY" in the OpenAIChatCompletionClient section with your API key.
 The agents will communicate through a console interface.
