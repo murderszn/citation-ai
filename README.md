@@ -72,34 +72,26 @@ Copy code
   ```bash
   pip install asyncio autogen-agentchat autogen-core autogen-ext
 Installation
-Clone the repository:
-bash
-Copy code
+
+
+## Clone the repository:
 git clone https://github.com/your-username/citation-ai.git
 cd citation-ai
-Install dependencies:
-bash
-Copy code
+
+## Install dependencies:
 pip install -r requirements.txt
-Usage
+
+## Usage
 Set your OpenAI API Key: Replace "YOUR_OPEN_AI_KEY" in the OpenAIChatCompletionClient section with your API key.
-
-Run the program: Execute the script using:
-
-bash
-Copy code
-python main.py
-Observe the process:
-
 The agents will communicate through a console interface.
 Follow the interactions as the Scientist agent creates a plan, the Researcher compiles references, and the Critic validates them.
 
-Key Concepts
+## Key Concepts
 Assistant Agents: Modular agents with predefined roles and system prompts.
 Termination Condition: Ensures a finite and streamlined workflow using the phrase VALIDATION COMPLETE.
 Modular Design: Easily extendable to other domains or tasks.
 
-Future Enhancements
+## Future Enhancements
 Integration with external databases (e.g., PubMed API).
 Support for multiple research domains.
 Enhanced UI for better interaction and visualization of the workflow.
