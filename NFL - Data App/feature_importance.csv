@@ -1,0 +1,47 @@
+Feature,Importance
+prePenaltyYardsGained,0.9556416354039873
+penaltyYards,0.021718723201622225
+expectedPoints,0.004307876267896166
+absoluteYardlineNumber,0.002891475995837144
+preSnapVisitorScore,0.0027682563289175067
+timeInTackleBox,0.0018643559438925096
+timeToThrow,0.0016518422780331817
+yardsToGo,0.0015233666326454804
+down,0.0012909773697125802
+preSnapHomeScore,0.0010574773779242132
+quarter,0.0008279187242914334
+pff_passCoverage_Cover-0,0.0007774199149127882
+receiverAlignment_3x2,0.000743313622261676
+offenseFormation_SINGLEBACK,0.0005084411546198319
+receiverAlignment_2x2,0.000391952924982693
+pff_manZone_Zone,0.00026539214284179935
+pff_passCoverage_Cover-1,0.00023387053595562963
+receiverAlignment_3x1,0.0002239261563285425
+pff_passCoverage_Cover-6 Right,0.00017125955609166983
+offenseFormation_SHOTGUN,0.00016232500660298427
+pff_passCoverage_Cover-3,0.0001428077713820397
+pff_passCoverage_Quarters,0.0001227279889756231
+pff_manZone_Other,0.00012248019501734318
+pff_passCoverage_Cover-3 Seam,0.00010870607874303161
+pff_passCoverage_Red Zone,7.29943813026227e-05
+pff_passCoverage_Cover-3 Cloud Left,5.754767013832223e-05
+offenseFormation_I_FORM,5.730316801036424e-05
+pff_passCoverage_Cover-2,5.28447733034811e-05
+offenseFormation_PISTOL,5.00262840932653e-05
+receiverAlignment_2x1,4.845497989774786e-05
+pff_passCoverage_Bracket,3.979495060711734e-05
+pff_passCoverage_Prevent,3.6995732728330485e-05
+pff_passCoverage_Cover 6-Left,1.750395935936328e-05
+offenseFormation_WILDCAT,9.971318015082463e-06
+pff_passCoverage_Goal Line,8.205754874091218e-06
+pff_passCoverage_Miscellaneous,7.62607531331787e-06
+receiverAlignment_4x1,6.309051603894097e-06
+offenseFormation_JUMBO,6.24284805624626e-06
+pff_passCoverage_Cover-1 Double,4.245824271067173e-06
+pff_passCoverage_Cover-3 Cloud Right,3.85515255017252e-06
+receiverAlignment_1x1,1.4057244528275664e-06
+receiverAlignment_3x0,1.2528537340207675e-07
+pff_passCoverage_Cover-3 Double Cloud,1.8492573922789495e-08
+receiverAlignment_3x3,0.0
+receiverAlignment_4x2,0.0
+receiverAlignment_2x0,0.0
